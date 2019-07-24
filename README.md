@@ -3,6 +3,8 @@
 Omdb auto complete search is a front-end web application. It uses OMDB movie search API to search movies and see movie details.
 It is built with ReactJs, Easy-Peasy for state management, and Styled Components for styling.
 
+![]('./constants/gif-omdb-auto-complete.gif')
+
 ## How to Run
 
 Please install Node and npm.
