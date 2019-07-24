@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render SearchedList 1`] = `
+<div
+  className="sc-bdVaJa hNfqcs"
+>
+  <ul>
+    <li>
+      <a
+        className="movie-link"
+        href="/movie/tt0405159"
+        onClick={[Function]}
+      >
+        Million Dollar Baby
+      </a>
+    </li>
+    <li>
+      <a
+        className="movie-link"
+        href="/movie/tt3890160"
+        onClick={[Function]}
+      >
+        Baby Driver
+      </a>
+    </li>
+    <li>
+      <a
+        className="movie-link"
+        href="/movie/tt0452623"
+        onClick={[Function]}
+      >
+        Gone Baby Gone
+      </a>
+    </li>
+    <li>
+      <a
+        className="movie-link"
+        href="/movie/tt0063522"
+        onClick={[Function]}
+      >
+        Rosemary's Baby
+      </a>
+    </li>
+    <li>
+      <a
+        className="movie-link"
+        href="/movie/tt3874544"
+        onClick={[Function]}
+      >
+        The Boss Baby
+      </a>
+    </li>
+    <li>
+      <a
+        className="movie-link"
+        href="/movie/tt1473832"
+        onClick={[Function]}
+      >
+        Bridget Jones's Baby
+      </a>
+    </li>
+    <li>
+      <a
+        className="movie-link"
+        href="/movie/tt0029947"
+        onClick={[Function]}
+      >
+        Bringing Up Baby
+      </a>
+    </li>
+    <li>
+      <a
+        className="movie-link"
+        href="/movie/tt0099329"
+        onClick={[Function]}
+      >
+        Cry-Baby
+      </a>
+    </li>
+    <li>
+      <a
+        className="movie-link"
+        href="/movie/tt3848892"
+        onClick={[Function]}
+      >
+        Baby
+      </a>
+    </li>
+    <li>
+      <a
+        className="movie-link"
+        href="/movie/tt0056687"
+        onClick={[Function]}
+      >
+        What Ever Happened to Baby Jane?
+      </a>
+    </li>
+  </ul>
+</div>
+`;
