@@ -18,7 +18,7 @@ const movies = {
   loading: false,
   fetchSelectedMovie: thunk(async (actions, id) => {
     actions.updateLoading(true);
-    fetch(`http://www.omdbapi.com/?apikey=bce872a9&i=${id}`)
+    return fetch(`http://www.omdbapi.com/?apikey=bce872a9&i=${id}`)
       .then(res => res.json())
       .then(res => {
         actions.updateSelectedMovie(res);
@@ -26,7 +26,7 @@ const movies = {
       });
   }),
   fetchMovies: thunk(async (actions, input) => {
-    fetch(`http://www.omdbapi.com/?apikey=bce872a9&s=${input}`)
+    return fetch(`http://www.omdbapi.com/?apikey=bce872a9&s=${input}`)
       .then(res => res.json())
       .then(res => {
         actions.updateError(null);
